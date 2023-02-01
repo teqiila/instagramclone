@@ -84,3 +84,14 @@ input.empty {
   text-decoration: none;
   color: lightgrey;
 }
+
+.rightpanel {
+  border: 0;
+  background-color: white;
+}
+
+#sticky-sidebar {
+  position: sticky;
+  top: 0;
+  
+}
