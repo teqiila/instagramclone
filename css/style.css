@@ -1,5 +1,5 @@
 body {
-  padding: 70px;
+  padding-top: 70px;
   background-color:rgb(255, 255, 255);
 }
 
@@ -11,12 +11,16 @@ body {
 .logo {
   margin-left: 192px ;
 }
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;  
+}
 
-  .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 999;  
+.center {
+  justify-content: center;
+  margin-left: 5px;
 }
 
 .form-inline {
@@ -36,7 +40,7 @@ body {
   background-image: url(/assets/search-solid.svg);
 }
 .menu-section {
-  margin: 2px 0 0 5px;
+  margin: 2px 0 0 275px;
 }
 
 .middlearea {
